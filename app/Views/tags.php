@@ -19,7 +19,6 @@
             <div class="container-fluid"> <p class="alert alert-success"><?= session()->get('Message') ?></p> </div>
     <?php 
         } 
-        //dd($tags);
     ?>
         <?php foreach($tags as $tag): ?>
             <div class="form-group">
